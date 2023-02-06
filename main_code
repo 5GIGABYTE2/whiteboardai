@@ -1,0 +1,126 @@
+from time import sleep
+print('Notice --> This is a demo program and such that is not intended to be used in production enviornment. --> Our GhostWriter trial ends today, so project might shutdown (maybe), I do not know.')
+sleep(1.9)
+print('\n\nThis was made from open source software. Please see the original source for copyright information. [For forkers only]\n') # Keep this here if you fork this project, this is IMPORTANT.
+sleep(0.9)
+print('MuffinMilk Productions / WhiteboardAI')
+sleep(1.2)
+import itertools
+import threading
+import time
+import sys
+
+done = False
+#here is the animation
+def animate():
+    for c in itertools.cycle(['|', '/', '-', '\\']):
+        if done:
+            break
+        sys.stdout.write('\rChecking for updates... (अपडेट के लिए जांच कर रहा है) ' + c)
+        sys.stdout.flush()
+        time.sleep(0.1)
+    sys.stdout.write('\r\n\n\n\n Update found..')
+
+t = threading.Thread(target=animate)
+t.start()
+
+#long process here
+time.sleep(10)
+done = True
+sleep(5.7)
+print('\n\n\nUpdating\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.')
+sleep(2.3)
+print('Finished..')
+sleep(2.2)
+print('\n\n\n Feel free to read the TOS here ->> http://www.whiteboard.com/tos/')
+sleep(2) # seconds before logo
+print('\n \n \n W      H      I      T      E      B      O      A      R      D\n')
+print('A      I\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n')
+input('Press enter to continue...\n')
+name = input('What is your name?\n')
+print('Hi, %s.' % name)
+name = input('What is your favorite color?\n')
+print('Wow, %s' % name, 'is my favorite color too!\n')
+name = input('How are you feeling today?\n')
+print('Wow I am feeling %s' % name, 'too!\n')
+name = input('What is your favorite food?\n')
+print('Wow, %s is my favorite food too!\n' % name)
+name = input('What is your favorite movie?\n')
+print('Wow, %s is my favorite movie too!\n' % name)
+name = input('How old are you?\n')
+print('Hey, we are the same age if you are %s!\n' % name)
+name = input('How tall are you?\n')
+print('Wow, we are the same height if you are %s!' % name)
+name = input('What is your occupation(s)\n')
+print('Wow, we have the same occupation(s) if you are %s!' % name)
+name = input('Who is your favorite band?\n')
+print('Wow, I love %s too!\n' % name)
+name = input('What is your favorite song?\n')
+print('Wow, I love %s too!\n' % name)
+name = input('What is your favorite drink?\n')
+print('Wow, I love %s too!\n' % name)
+name = input('What state do you live in?\n')
+print('Wow, I cannot believe you live in %s!' % name)
+name = input('What is your biggest fear?\n')
+print('Wow, I am afraid of %s too!' % name)
+name = input('What makes you really angry?\n')
+print('Wow, I am really angry about %s too!' % name)
+name = input('What would you change about yourself if you could?\n')
+print('Wow, I would change %s too!\n' % name)
+name = input('Where do you see yourself in five years?\n')
+print('Wow, I also see myself at %s in five years as well!' % name)
+name = input('Whats the weirdest dream youve ever had?\n')
+print('Wow, I have never had a dream like %s!' % name)
+name = input('Whats one of the most fun childhood memories you have?\n')
+print('Wow, I have never had a fun childhood memory like %s!' % name)
+name = input('What will finally break the internet?\n')
+print('Wow, I hope %s will break the internet!' % name)
+name = input('What is the most embarrassing thing you have ever seen?\m')
+print('Wow, I have never seen %s before!\n' % name)
+name = input('What is the most embarrasing thing you have ever done?\n')
+print('Wow, I have never done %s before!\n' % name)
+name = input('What is your favorite thing to do in the morning?\n')
+print('Wow, I love to do %s too!' % name)
+name = input('What is your favorite thing to do at night?\n')
+print('Wow, I like to do %s too!' % name)
+name = input('What is your favorite thing to do in the evening?\n')
+print('Wow, I love to do %s too!' % name)
+name = input('Do you go to school or college?\n')
+print('Oh really?\n')
+name = input('What is your favorite subject?\n')
+print('Wow, %s is my favorite subject too!' % name)
+name = input('What is your favorite sport?\n')
+print('Wow, %s is my favorite sport too!\n' % name)
+name = input('What is your favorite vacation destination?\n')
+print('Wow, I would love to go to %s!' % name)
+sleep(1.2)
+from time import sleep
+sleep(5) # seconds
+print('Loading')
+from time import sleep
+sleep(1) # seconds
+print('.')
+from time import sleep
+sleep(1) # seconds
+print('.')
+from time import sleep
+sleep(1) # seconds
+print('.')
+from time import sleep
+sleep(1) # seconds
+print('.')
+from time import sleep
+sleep(1) # seconds
+print('.')
+from time import sleep
+sleep(1) # seconds
+print('.')
+from time import sleep
+sleep(1) # seconds
+print('.')
+print('Credits to WhiteboardAI 2023-2025 [2 year licensed] \n')
+sleep(1)
+print('Shutting down...\n')
+from time import sleep
+sleep(0.7) # seconds
+print('Bye!\n')
